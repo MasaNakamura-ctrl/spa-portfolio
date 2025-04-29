@@ -118,7 +118,7 @@ const lessonAssumedApp = {
             <p>ユーザー名：lessonList</p>
             <p>パスワード：confirming</p>
             <a href="https://github.com/MasaNakamura-ctrl/lesson-assumed-app">ソースコード等詳細</a>
-            <p>システム構成図</p>
+            <h3>システム構成図</h3>
             <img class="aws" src="./lesson-assumed-app.png">
             <h3>技術スタック</h3>
             <h4>フロントエンド</h4>

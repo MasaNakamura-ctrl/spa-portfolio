@@ -1,26 +1,41 @@
-body, html {
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+}
+
+#app {
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
+    display: flex;
+    gap: 24px;
     padding: 0;
+    margin-bottom: 32px;
+    border-bottom: 1px solid #ddd;
 }
-
-nav ul li {
+nav li {
     display: inline;
-    margin-right: 10px;
 }
-
-a {
+nav a {
     text-decoration: none;
-    color: blue;
+    color: #0056b3;
+    font-weight: 400;
+    padding: 12px 0;
+    display: inline-block;
 }
-
-a:hover {
-    text-decoration: underline;
+nav a:hover {
+    color: #003d80;
+    border-bottom: 2px solid #003d80;
 }
 
 img.aws {
