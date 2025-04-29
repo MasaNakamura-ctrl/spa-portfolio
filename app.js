@@ -217,6 +217,18 @@ const slideContents = {
     `
 };
 
+const Contact = {
+    template: `
+        <div>
+            <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSfRwQU1pf_vVx6j4ZJADiXGdkfMPIosHUQNw9Cu_BDcQ0WztQ/viewform?usp=dialog"
+            width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">
+                読み込んでいます…
+            </iframe>
+        </div>
+    `
+};
+
 // ルーティング設定
 const routes = [
     {path: '/', component: Home},
@@ -225,7 +237,8 @@ const routes = [
     {path: '/learning-calc', component: learningCalc},
     {path: '/usageRecord', component: usageRecord},
     {path: '/learning-contents', component: learningContents},
-    {path: '/slide-contents', component: slideContents}
+    {path: '/slide-contents', component: slideContents},
+    {path: '/contact', component: Contact}
 ];
 
 // ルーター作成
