@@ -23,10 +23,31 @@ const lessonAssumedApp = {
     template: `
         <div>
             <h1>レッスン記録アプリ</h1>
-            <a href="http://52.199.89.153:8080/">リンク先</a>
-            <h3>ログイン情報</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/oaYXNaPVrBQ?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>設計からデプロイ後のシステムテストまでを一人称でゼロから再現し、ポートフォリオとして構築したCRUDアプリになります。</p>
+            <h3>概要</h3>
+            <a href="http://52.199.89.153:8080/">アプリケーションリンク先</a>
             <p>ユーザー名：lessonList</p>
             <p>パスワード：confirming</p>
+            <a href="https://github.com/MasaNakamura-ctrl/lesson-assumed-app">ソースコード等詳細</a>
+            <p>システム構成図</p>
+            <img src="./lesson-assumed-app.png">
+            <h3>技術スタック</h3>
+            <h4>フロントエンド</h4>
+            <p>HTML</p>
+            <p>CSS</p>
+            <h4>バックエンド</h4>
+            <p>Java 21</p>
+            <p>Spring Boot 3.4.1</p>
+            <h4>DB</h4>
+            <p>PostgreSQL 14.15</p>
+            <h4>OS</h4>
+            <p>macOS</p>
+            <p>Amazon Linux 2023(EC2インスタンス)</p>
+            <h4>インフラ管理</h4>
+            <p>Docker 20.10.12</p>
+            <h4>クラウド</h4>
+            <p>AWS</p>
         </div>
     `
 };
