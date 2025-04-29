@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple SPA Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- div id="app" がSPAのルートコンテナ -->
+    <div id="app">
+        <nav>
+            <ul>
+                <!-- URLを書き換えて画面遷移 -->
+                <li><router-link to="/">Home</router-link></li>
+                <li><router-link to="/about">About</router-link></li>
+                <li><router-link to="/added">Added</router-link></li>
+            </ul>
+            <!-- 切り替えるページを表示 -->
+            <router-view></router-view>
+        </nav>
+    </div>
+    <!-- Vue本体 -->
+    <script src="https://unpkg.com/vue@3"></script>
+    <!-- Vue Router -->
+    <script src="https://unpkg.com/vue-router@4"></script>
+    <!-- 表示箇所の実装 -->
+    <script src="app.js"></script>
+</body>
+</html>
