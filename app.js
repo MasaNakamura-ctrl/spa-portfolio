@@ -23,15 +23,17 @@ const lessonAssumedApp = {
     template: `
         <div>
             <h1>レッスン記録アプリ</h1>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/oaYXNaPVrBQ?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p>設計からデプロイ後のシステムテストまでを一人称でゼロから再現し、ポートフォリオとして構築したCRUDアプリになります。</p>
+            <a href="http://52.199.89.153:8080/"><img class="full-screen" src="./login.png"></a>
+            <br>
+            <img class="full-screen" src="./top.png">
             <h3>概要</h3>
-            <a href="http://52.199.89.153:8080/">アプリケーションリンク先</a>
+            <p>設計からデプロイ後のシステムテストまでを一人称でゼロから再現し、ポートフォリオとして構築したCRUDアプリになります。</p>
+            <p>ログイン画面の画像を押下し、下記のユーザー名とパスワードを入力することで実際のCRUD機能をお試し頂けます。</p>
             <p>ユーザー名：lessonList</p>
             <p>パスワード：confirming</p>
             <a href="https://github.com/MasaNakamura-ctrl/lesson-assumed-app">ソースコード等詳細</a>
             <p>システム構成図</p>
-            <img src="./lesson-assumed-app.png">
+            <img class="aws" src="./lesson-assumed-app.png">
             <h3>技術スタック</h3>
             <h4>フロントエンド</h4>
             <p>HTML</p>
@@ -56,7 +58,16 @@ const learningCalc = {
     template: `
         <div>
             <h1>計算機再現アプリ</h1>
-            <a href="https://masanakamura-ctrl.github.io/learning-calc/">リンク先</a>
+            <a href="https://masanakamura-ctrl.github.io/learning-calc/"><img class="calc" src="./js-calc.png"></a>
+            <h3>概要</h3>
+            <p>JavaScriptを用いた実装の学習として、iPhoneの計算機アプリの外見に近づけながら計算機能を実装したアプリとなります。</p>
+            <p>画像を押下することで実際の機能をお試し頂けます。</p>
+            <h3>技術スタック</h3>
+            <h4>フロントエンド</h4>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Java Script</p>
+            <a href="https://github.com/MasaNakamura-ctrl/learning-calc">ソースコード等詳細</a>
         </div>
     `
 };
@@ -65,7 +76,16 @@ const usageRecord = {
     template: `
         <div>
             <h1>入退室管理アプリ</h1>
-            <a href="https://usagerecord.streamlit.app/">リンク先</a>
+            <a href="https://usagerecord.streamlit.app/"><img class="full-screen" src="./usageRecord.png"></a>
+            <h3>概要</h3>
+            <p>大学での共用スペースでの利用記録をノートではなく画面入力で行えることを想定し、Streamlitによるシンプルなデプロイを実施したアプリとなります。</p>
+            <p>画像を押下することで実際の機能をお試し頂けます。</p>
+            <h3>技術スタック</h3>
+            <h4>バックエンド</h4>
+            <p>Python</p>
+            <p>Streamlit</p>
+            <p>sqlite3</p>
+            <a href="https://github.com/MasaNakamura-ctrl/usageRecord">ソースコード等詳細</a>
         </div>
     `
 };

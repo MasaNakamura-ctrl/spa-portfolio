@@ -22,3 +22,19 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+img.aws {
+    width: 600px;
+    height: 375px;
+    }
+
+
+img.calc {
+    width: 258px;
+    height: 398px;
+    }
+
+img.full-screen{
+    width: 560px;
+    height: 315px;
+    }
