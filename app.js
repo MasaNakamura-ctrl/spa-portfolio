@@ -85,6 +85,27 @@ const Profile = {
                     <td>実務及びポートフォリオで使用経験あり</td>
                 </tr>
                 <tr>
+                    <td>JUnit</td>
+                    <td>
+                        <a href="https://github.com/MasaNakamura-ctrl/WaGotcha">現在開発中のSPA</a>
+                        の単体テストにて使用経験あり
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mockito</td>
+                    <td>
+                        <a href="https://github.com/MasaNakamura-ctrl/WaGotcha">現在開発中のSPA</a>
+                        の単体テストにて使用経験あり
+                    </td>
+                </tr>
+                <tr>
+                    <td>Postman</td>
+                    <td>
+                        <a href="https://github.com/MasaNakamura-ctrl/WaGotcha">現在開発中のSPA</a>
+                        の結合テストにて使用経験あり
+                    </td>
+                </tr>
+                <tr>
                     <td>設計</td>
                     <td>仕様書に沿った詳細設計の経験あり</td>
                 </tr>
