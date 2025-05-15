@@ -45,6 +45,13 @@ const Profile = {
                     <td>本サイトにてVueのルーターを使用</td>
                 </tr>
                 <tr>
+                    <td>Vue.js</td>
+                    <td>
+                        <a href="https://github.com/MasaNakamura-ctrl/WaGotcha">現在開発中のSPA</a>
+                        にて使用
+                    </td>
+                </tr>
+                <tr>
                     <td>Spring Boot</td>
                     <td>SIerやポートフォリオにて実装経験あり</td>
                 </tr>
