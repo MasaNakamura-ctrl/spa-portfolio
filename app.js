@@ -46,10 +46,7 @@ const Profile = {
                 </tr>
                 <tr>
                     <td>Vue.js</td>
-                    <td>
-                        <a href="https://github.com/MasaNakamura-ctrl/WaGotcha">現在開発中のSPA</a>
-                        にて使用
-                    </td>
+                    <td>和楽知屋にて使用</td>
                 </tr>
                 <tr>
                     <td>Spring Boot</td>
@@ -93,24 +90,15 @@ const Profile = {
                 </tr>
                 <tr>
                     <td>JUnit</td>
-                    <td>
-                        <a href="https://github.com/MasaNakamura-ctrl/WaGotcha">現在開発中のSPA</a>
-                        の単体テストにて使用経験あり
-                    </td>
+                    <td>和楽知屋にて使用 </td>
                 </tr>
                 <tr>
                     <td>Mockito</td>
-                    <td>
-                        <a href="https://github.com/MasaNakamura-ctrl/WaGotcha">現在開発中のSPA</a>
-                        の単体テストにて使用経験あり
-                    </td>
+                    <td>和楽知屋にて使用</td>
                 </tr>
                 <tr>
                     <td>Postman</td>
-                    <td>
-                        <a href="https://github.com/MasaNakamura-ctrl/WaGotcha">現在開発中のSPA</a>
-                        の結合テストにて使用経験あり
-                    </td>
+                    <td>和楽知屋にて使用</td>
                 </tr>
                 <tr>
                     <td>設計</td>
@@ -132,6 +120,42 @@ const Profile = {
         </div>
     `
 };
+
+const wagotcha = {
+    template: `
+        <div>
+            <h1>和楽知屋 -WaGotcha-</h1>
+            <a href="http://54.95.17.166/"><img class="full-screen" src="./wagotcha.png"></a>
+            <br>
+            <h3>概要</h3>
+            <p>和楽知屋(わがっちゃ)は和楽器業界に特化したX風アプリを想定し、必要な機能の実装を進めているSPAとなります。</p>
+            <p>現段階ではアプリの要となるCRUD機能としてツツメキ(Xでいうポストのこと)の投稿、表示、更新、削除まで実装しており、今後さらに機能を拡張させていく予定です。</p>
+            <h3>技術スタック</h3>
+            <h4>フロントエンド</h4>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+            <p>Vue.js</p>
+            <h4>バックエンド</h4>
+            <p>Java 21</p>
+            <p>Spring Boot 3.4.1</p>
+            <h4>DB</h4>
+            <p>PostgreSQL 14.15</p>
+            <h4>OS</h4>
+            <p>macOS(ローカル開発)</p>
+            <p>Ubuntu(GitHub ActionsにてJUnit,Mockito使用時、AWSでのデプロイ)</p>
+            <h4>インフラ管理</h4>
+            <p>Docker 20.10.12</p>
+            <h4>クラウド</h4>
+            <p>AWS</p>
+            <h4>テストツール</h4>
+            <p>Postman</p>
+            <p>JUnit</p>
+            <p>Mockito</p>
+        </div>
+    `
+};
+
 
 const lessonAssumedApp = {
     template: `
@@ -261,6 +285,7 @@ const Contact = {
 const routes = [
     {path: '/', component: Home},
     {path: '/profile', component: Profile},
+    {path: '/wagotcha', component: wagotcha},
     {path: '/lesson-assumed-app', component: lessonAssumedApp},
     {path: '/learning-calc', component: learningCalc},
     {path: '/usageRecord', component: usageRecord},
