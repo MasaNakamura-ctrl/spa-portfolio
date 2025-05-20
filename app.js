@@ -130,6 +130,9 @@ const wagotcha = {
             <h3>概要</h3>
             <p>和楽知屋(わがっちゃ)は和楽器業界に特化したX風アプリを想定し、必要な機能の実装を進めているSPAとなります。</p>
             <p>現段階ではアプリの要となるCRUD機能としてツツメキ(Xでいうポストのこと)の投稿、表示、更新、削除まで実装しており、今後さらに機能を拡張させていく予定です。</p>
+            <a href="https://github.com/MasaNakamura-ctrl/WaGotcha">ソースコード等詳細</a>
+            <h3>システム構成図</h3>
+            <img class="aws" src="./WaGotcha-aws.png">
             <h3>技術スタック</h3>
             <h4>フロントエンド</h4>
             <p>HTML</p>
