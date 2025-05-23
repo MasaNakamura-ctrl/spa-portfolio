@@ -164,7 +164,7 @@ const lessonAssumedApp = {
     template: `
         <div>
             <h1>レッスン記録アプリ</h1>
-            <a href="http://52.199.89.153:8080/"><img class="full-screen" src="./login.png"></a>
+            <a href="https://lesson-assumed-app.onrender.com/"><img class="full-screen" src="./login.png"></a>
             <br>
             <img class="full-screen" src="./top.png">
             <h3>概要</h3>
@@ -173,7 +173,7 @@ const lessonAssumedApp = {
             <p>ユーザー名：lessonList</p>
             <p>パスワード：confirming</p>
             <a href="https://github.com/MasaNakamura-ctrl/lesson-assumed-app">ソースコード等詳細</a>
-            <h3>システム構成図</h3>
+            <h3>システム構成図(AWS使用時)</h3>
             <img class="aws" src="./lesson-assumed-app.png">
             <h3>技術スタック</h3>
             <h4>フロントエンド</h4>
@@ -190,7 +190,8 @@ const lessonAssumedApp = {
             <h4>インフラ管理</h4>
             <p>Docker 20.10.12</p>
             <h4>クラウド</h4>
-            <p>AWS</p>
+            <p>AWS(現在は公開を停止しRenderにデプロイしています)</p>
+            <p>Render</p>
         </div>
     `
 };
