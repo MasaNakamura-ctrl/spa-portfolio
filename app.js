@@ -49,6 +49,10 @@ const Profile = {
                     <td>和楽知屋にて使用</td>
                 </tr>
                 <tr>
+                    <td>React</td>
+                    <td>個人学習で使用</td>
+                </tr>
+                <tr>
                     <td>Spring Boot</td>
                     <td>SIerやポートフォリオにて実装経験あり</td>
                 </tr>
